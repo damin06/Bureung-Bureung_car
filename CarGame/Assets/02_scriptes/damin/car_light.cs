@@ -37,6 +37,14 @@ public enum Side
         isBackLightOn = false;
     }
 
+    void Update()
+    {
+        if(Input.GetKeyDown(KeyCode.L))
+        {
+            OperateFrontLights();
+        }
+    }
+
     public void OperateFrontLights()
     {
         isFrontLightOn = !isFrontLightOn;

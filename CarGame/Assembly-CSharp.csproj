@@ -44,12 +44,14 @@
      <Compile Include="Assets\vehicle\engineAudio.cs" />
      <Compile Include="Assets\vehicle\wheelsManager.cs" />
      <Compile Include="Assets\CarAI\Scripts\controllingCarAI.cs" />
+     <Compile Include="Assets\02_scriptes\damin\car_light.cs" />
      <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
      <Compile Include="Assets\vehicle\controller.cs" />
      <Compile Include="Assets\vehicle\cameraController.cs" />
      <Compile Include="Assets\CarAI\Scripts\CarAI.cs" />
-     <Compile Include="Assets\02_scriptes\damin\car_light.cs" />
      <None Include="Assets\Geopipe\Pack01\NYBlock01\ModelLicense.txt" />
+     <None Include="Assets\05_assets\damin\Car Engine Sounds - i6 German Free\Assets for Realistic Engine Sounds\ReadMe.txt" />
+     <None Include="Assets\05_assets\damin\Car Engine Sounds - i6 German Free\Demo_Audio\ReadMe.txt" />
      <None Include="Assets\CarAI\Readme.txt.txt" />
     <Reference Include="UnityEngine">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.8f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
