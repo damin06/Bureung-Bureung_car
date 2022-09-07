@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 53a89f774acb9dd469ad4945dc262b78
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - m_ViewDataDictionary: {instanceID: 0}
+  - VehicleObject: {fileID: 6238697556061181411, guid: ccfae9991e7591241a45533953f96f8c,
+      type: 3}
+  - wheelsContainer: {instanceID: 0}
+  - collidersContainer: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
