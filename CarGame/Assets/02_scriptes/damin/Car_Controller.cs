@@ -64,6 +64,12 @@ public class Car_Controller : MonoBehaviour
     public float turnSensitivity = 1.0f;
     public float maxSteerAngle = 30.0f;
 
+    // [SerializeField]private float maxSpeed;
+    // [SerializeField]private float maxRSpeed;
+    // [SerializeField]private float maxTorque ;
+    public  float currentSpeed;
+
+
     public Vector3 _centerOfMass;
 
     private car_light car_Light;
@@ -73,6 +79,7 @@ public class Car_Controller : MonoBehaviour
     float moveInput;
     float steerInput;
 
+   // public float currentSpeed;
 
     
     private Rigidbody carRb;
@@ -82,16 +89,29 @@ public class Car_Controller : MonoBehaviour
     WheelFrictionCurve frictionCurveL;
     WheelFrictionCurve frictionCurveR;
     WheelFrictionCurve srictionCurveL;
-    WheelFrictionCurve srictionCurveLR;
+    WheelFrictionCurve srictionCurveR;
 
     [Header("drift")]
     [SerializeField]float slipRate = 1;
     [SerializeField]float handBreakslipRate =0.4f;
+    public float wheelSteeringAngle;
+    public float wheelRotateSpeed;
+    public float Horizontal;
+    public float Vertical;
+    public float wheelMaxSpeed;
 
-    
+
 
     void Start()
     {
+        //wheelCollider_RL=GetComponent<WheelCollider>();
+        //wheelCollider_RR=GetComponent<WheelCollider>();
+
+        frictionCurveL = wheelCollider_RL.forwardFriction;
+        srictionCurveL = wheelCollider_RL.sidewaysFriction;
+        frictionCurveR = wheelCollider_RR.forwardFriction;
+        srictionCurveR = wheelCollider_RR.sidewaysFriction;
+
         car_Light = GetComponent<car_light>();
         carRb = GetComponent<Rigidbody>();
         carRb.centerOfMass = _centerOfMass;
@@ -101,6 +121,11 @@ public class Car_Controller : MonoBehaviour
 
     void Update()
     {
+        //currentSpeed = 2 * 3.14f * wheelCollider_RL.radius * wheelCollider_RL.rpm * 60 / 1000;
+        //currentSpeed = Mathf.Round (currentSpeed);
+
+        //currentSpeed = Mathf.Round (currentSpeed);
+//        currentSpeed = carRb.velocity.magnitude;
         GetInputs();
         AnimateWheels();
         WheelEffects();
@@ -134,11 +159,14 @@ public class Car_Controller : MonoBehaviour
         
     }
 
-    void LateUpdate()
+    void FixedUpdate()
     {
-        Move();
-        Steer();
+        wheelControl();
+        // Move();
+        // Steer();
         Brake();
+        Vector3 vel = carRb.velocity;
+        currentSpeed = carRb.velocity.magnitude * 2.23693629f;
     }
 
     public void MoveInput(float input)
@@ -153,11 +181,30 @@ public class Car_Controller : MonoBehaviour
 
     void GetInputs()
     {
-        if(control == ControlMode.Keyboard)
-        {
+        // if (currentSpeed <= 0 && currentSpeed > -maxSpeed) 
+        // {
+        //     wheelCollider_RL.motorTorque = -10  * Input.GetAxis("Vertical");	
+        //     wheelCollider_RR.motorTorque = -10  * Input.GetAxis("Vertical");
+        // }
+        // else if (currentSpeed >= 0 && currentSpeed < maxRSpeed)
+        // {
+        //     wheelCollider_RR.motorTorque = -maxTorque  * Input.GetAxis("Vertical");		
+        //     wheelCollider_RL.motorTorque = -maxTorque  * Input.GetAxis("Vertical");
+        // }
+        
+        // if(currentSpeed>10)
+        // {
+        //     return;
+        // }
+        // else
+        // {
             moveInput = Input.GetAxis("Vertical");
             steerInput = Input.GetAxis("Horizontal");
-        }
+       // }
+            
+            //wheelCollider_RR.motorTorque = 0;		
+            //wheelCollider_RL.motorTorque = 0;
+        
     }
 
     void Move()
@@ -166,8 +213,26 @@ public class Car_Controller : MonoBehaviour
         // {
         //     wheel.wheelCollider.motorTorque = moveInput * 600 * maxAcceleration * Time.deltaTime;
         // }
-        wheelCollider_RR.motorTorque = moveInput * 1600 * maxAcceleration * Time.deltaTime;
-        wheelCollider_RL.motorTorque = moveInput * 1600 * maxAcceleration * Time.deltaTime;
+        // if(currentSpeed <= 0 && currentSpeed > maxSpeed)
+        // {
+        //     return;
+        // }
+        // else if (currentSpeed >= 0 && currentSpeed < maxRSpeed)
+        // {
+        //     return;
+        // }
+        // else
+        // {
+            // if(currentSpeed>10)
+            // {
+            //     return;
+            // }
+            // else
+            // {
+            wheelCollider_RR.motorTorque = moveInput * 600 * maxAcceleration * Time.deltaTime;
+            wheelCollider_RL.motorTorque = moveInput * 600 * maxAcceleration * Time.deltaTime;
+          //  }
+        //}
     }
 
     void Steer()
@@ -183,6 +248,93 @@ public class Car_Controller : MonoBehaviour
         var _steerAngle = steerInput * turnSensitivity * maxSteerAngle;
         wheelCollider_FL.steerAngle =Mathf.Lerp(wheelCollider_FL.steerAngle, _steerAngle, 0.6f);
         wheelCollider_FR.steerAngle =Mathf.Lerp(wheelCollider_FR.steerAngle, _steerAngle, 0.6f);
+        // wheelCollider_FL.steerAngle = Mathf.LerpAngle(wheelCollider_FL.steerAngle, 0, Time.deltaTime * wheelRotateSpeed);
+        // wheelCollider_FR.steerAngle = Mathf.LerpAngle(wheelCollider_FR.steerAngle, 0, Time.deltaTime * wheelRotateSpeed);
+        // if (steerInput > 0.1)
+        // {
+        // wheelCollider_FL.steerAngle= -Mathf.LerpAngle(wheelCollider_FL.steerAngle, -wheelSteeringAngle, Time.deltaTime * wheelRotateSpeed);
+        // wheelCollider_FR.steerAngle= -Mathf.LerpAngle(wheelCollider_FL.steerAngle, -wheelSteeringAngle, Time.deltaTime * wheelRotateSpeed);
+        // }
+
+        // if(steerInput < -0.1)
+        // {
+        //     wheelCollider_FL.steerAngle= -Mathf.LerpAngle(wheelCollider_FL.steerAngle, wheelSteeringAngle, Time.deltaTime * wheelRotateSpeed);
+        //     wheelCollider_FR.steerAngle= -Mathf.LerpAngle(wheelCollider_FL.steerAngle, wheelSteeringAngle, Time.deltaTime * wheelRotateSpeed);
+        // }
+        // else
+        // {
+        //     var _steerAngle = steerInput * turnSensitivity * maxSteerAngle;
+        //     wheelCollider_FL.steerAngle =Mathf.Lerp(wheelCollider_FL.steerAngle, _steerAngle, 0.6f);
+        //     wheelCollider_FR.steerAngle =Mathf.Lerp(wheelCollider_FR.steerAngle, _steerAngle, 0.6f);
+        // }
+    }
+    void wheelControl()
+    {
+//Sets default steering angle
+            wheelCollider_FL.steerAngle = Mathf.LerpAngle(wheelCollider_FL.steerAngle, 0, Time.deltaTime * wheelRotateSpeed);
+             wheelCollider_FR.steerAngle = Mathf.LerpAngle(wheelCollider_FR.steerAngle, 0, Time.deltaTime * wheelRotateSpeed);
+            //Sets default motor speed
+            wheelCollider_RL.motorTorque = -Mathf.Lerp(wheelCollider_RL.motorTorque, 0, Time.deltaTime * maxAcceleration);
+            wheelCollider_RR.motorTorque = -Mathf.Lerp(wheelCollider_RR.motorTorque, 0, Time.deltaTime * maxAcceleration);
+
+
+
+            //Motor controls
+
+            Horizontal = Input.GetAxis("Horizontal");
+            Vertical = Input.GetAxis("Vertical");
+
+            if (Vertical > 0.1)
+            {
+                wheelCollider_RL.motorTorque = Mathf.Lerp(wheelCollider_RL.motorTorque, wheelMaxSpeed, Time.deltaTime * maxAcceleration);
+                wheelCollider_RR.motorTorque = Mathf.Lerp(wheelCollider_RR.motorTorque, wheelMaxSpeed, Time.deltaTime * maxAcceleration);
+            }
+
+
+            if (Vertical < -0.1)
+            {
+                wheelCollider_RL.motorTorque = -Mathf.Lerp(wheelCollider_RL.motorTorque, wheelMaxSpeed, Time.deltaTime * maxAcceleration * brakeAcceleration);
+                wheelCollider_RR.motorTorque = -Mathf.Lerp(wheelCollider_RR.motorTorque, wheelMaxSpeed, Time.deltaTime * maxAcceleration * brakeAcceleration);
+                carRb.drag = 0.3f;
+            }
+            else
+            {
+                carRb.drag = 0;
+            }
+
+
+            if (Horizontal > 0.1)
+            {
+                if(Input.GetKey(KeyCode.Space))
+                {
+                    wheelCollider_FL.steerAngle= -Mathf.LerpAngle(wheelCollider_FL.steerAngle, -wheelSteeringAngle, Time.deltaTime * wheelRotateSpeed);
+                 wheelCollider_FR.steerAngle= -Mathf.LerpAngle(wheelCollider_FL.steerAngle, -wheelSteeringAngle, Time.deltaTime * wheelRotateSpeed);
+                }
+                else
+                    {
+                        var _steerAngle = steerInput * turnSensitivity * maxSteerAngle;
+                        wheelCollider_FL.steerAngle =Mathf.Lerp(wheelCollider_FL.steerAngle, _steerAngle, 0.6f);
+                        wheelCollider_FR.steerAngle =Mathf.Lerp(wheelCollider_FR.steerAngle, _steerAngle, 0.6f);
+                    }
+            }
+            
+
+            if (Horizontal < -0.1)
+            {
+                if(Input.GetKey(KeyCode.Space))
+                {
+                    wheelCollider_FL.steerAngle= -Mathf.LerpAngle(wheelCollider_FL.steerAngle, wheelSteeringAngle, Time.deltaTime * wheelRotateSpeed);
+                    wheelCollider_FR.steerAngle= -Mathf.LerpAngle(wheelCollider_FL.steerAngle, wheelSteeringAngle, Time.deltaTime * wheelRotateSpeed);
+                }
+                else
+                    {
+                        var _steerAngle = steerInput * turnSensitivity * maxSteerAngle;
+                        wheelCollider_FL.steerAngle =Mathf.Lerp(wheelCollider_FL.steerAngle, _steerAngle, 0.6f);
+                        wheelCollider_FR.steerAngle =Mathf.Lerp(wheelCollider_FR.steerAngle, _steerAngle, 0.6f);
+                    }
+            }
+            
+        
     }
 
     void Brake()
@@ -196,10 +348,36 @@ public class Car_Controller : MonoBehaviour
             //         wheel.wheelCollider.brakeTorque = 1600 * brakeAcceleration * Time.deltaTime;
             //     }
             // }
-            wheelCollider_RL.brakeTorque = 1600 * brakeAcceleration * Time.deltaTime;
-            wheelCollider_RR.brakeTorque = 1600 * brakeAcceleration * Time.deltaTime;
+            // wheelCollider_RL.brakeTorque = 1600 * brakeAcceleration * Time.deltaTime;
+            // wheelCollider_RR.brakeTorque = 1600 * brakeAcceleration * Time.deltaTime;
+            wheelCollider_RL.brakeTorque = 3000;
+            wheelCollider_RR.brakeTorque = 3000;
+
+
+            // WheelFrictionCurve curve = new WheelFrictionCurve();
+            // curve.stiffness=0.4f;
+            // wheelCollider_RL.forwardFriction=curve;
+            // wheelCollider_RL.sidewaysFriction=curve;
+            // wheelCollider_RR.forwardFriction=curve;
+            // wheelCollider_RR.sidewaysFriction=curve;
+
+
+
+            // frictionCurveL.stiffness = handBreakslipRate;
+            // wheelCollider_RL.forwardFriction =frictionCurveL;
+
+            // srictionCurveL.stiffness = handBreakslipRate;
+            // wheelCollider_RL.sidewaysFriction = srictionCurveL;
+
+            // frictionCurveR.stiffness = handBreakslipRate;
+            // wheelCollider_RR.forwardFriction =frictionCurveR;
+
+            // srictionCurveR.stiffness = handBreakslipRate;
+            // wheelCollider_RR.sidewaysFriction = srictionCurveR;
             //car_Light.isBackLightOn = true;
             // carLights.OperateBackLights();
+
+
         }
         else
         {
@@ -209,6 +387,29 @@ public class Car_Controller : MonoBehaviour
             // }
             wheelCollider_RL.brakeTorque =0;
             wheelCollider_RR.brakeTorque =0;
+
+            // WheelFrictionCurve curve = new WheelFrictionCurve();
+            // curve.stiffness=0.9f;
+            // wheelCollider_RL.forwardFriction=curve;
+            // wheelCollider_RL.sidewaysFriction=curve;
+            // wheelCollider_RR.forwardFriction=curve;
+            // wheelCollider_RR.sidewaysFriction=curve;
+
+
+
+            // frictionCurveL.stiffness = slipRate;
+            // wheelCollider_RL.forwardFriction =frictionCurveL;
+
+            // srictionCurveL.stiffness = slipRate;
+            // wheelCollider_RL.sidewaysFriction = srictionCurveL;
+
+            // frictionCurveR.stiffness = slipRate;
+            // wheelCollider_RR.forwardFriction =frictionCurveR;
+
+            // srictionCurveR.stiffness = slipRate;
+            // wheelCollider_RR.sidewaysFriction = srictionCurveR;
+
+
 
             //car_Light.isBackLightOn = false;
             // carLights.OperateBackLights();
@@ -256,18 +457,18 @@ public class Car_Controller : MonoBehaviour
             
                 // wheel.wheelEffectObj.GetComponentInChildren<TrailRenderer>().emitting = true;
                 // wheel.smokeParticle.Emit(1);
-
+                int rad = UnityEngine.Random.Range(1,4);
                 wheelEffectObj_FL.GetComponentInChildren<TrailRenderer>().emitting = true;
-                smokeParticle_FL.Emit(1);
+                smokeParticle_FL.Emit(rad);
 
                 wheelEffectObj_FR.GetComponentInChildren<TrailRenderer>().emitting = true;
-                smokeParticle_FR.Emit(1);
+                smokeParticle_FR.Emit(rad);
 
                 wheelEffectObj_RL.GetComponentInChildren<TrailRenderer>().emitting = true;
-                smokeParticle_RL.Emit(1);
+                smokeParticle_RL.Emit(rad);
 
                 wheelEffectObj_RR.GetComponentInChildren<TrailRenderer>().emitting = true;
-                smokeParticle_RR.Emit(1);
+                smokeParticle_RR.Emit(rad);
             }
             else
             {
