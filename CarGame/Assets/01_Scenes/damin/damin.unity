@@ -36196,6 +36196,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1929445473265268, guid: 86c7d874fe6f24aa981a865a6f8f6217, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1979633473428080, guid: 86c7d874fe6f24aa981a865a6f8f6217, type: 3}
       propertyPath: m_IsActive
       value: 1
@@ -48501,6 +48505,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: efd6f003bd85416a95e874de4277b1d7.fbx
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4bbd64328c48d434e998f76588fe062a,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4bbd64328c48d434e998f76588fe062a, type: 3}
@@ -61427,7 +61436,12 @@ PrefabInstance:
     - target: {fileID: 5603641306847469570, guid: ea8707d2bde9e3a47b05fcff2adfb904,
         type: 3}
       propertyPath: wheelMaxSpeed
-      value: 1000
+      value: 800
+      objectReference: {fileID: 0}
+    - target: {fileID: 5603641306847469570, guid: ea8707d2bde9e3a47b05fcff2adfb904,
+        type: 3}
+      propertyPath: _centerOfMass.y
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5603641306847469570, guid: ea8707d2bde9e3a47b05fcff2adfb904,
         type: 3}

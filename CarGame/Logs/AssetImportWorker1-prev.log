@@ -15,7 +15,7 @@ C:/Users/user/Documents/Bureung-Bureung_car/CarGame
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-58411
+55565
 Successfully changed project path to: C:/Users/user/Documents/Bureung-Bureung_car/CarGame
 C:/Users/user/Documents/Bureung-Bureung_car/CarGame
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ C:/Users/user/Documents/Bureung-Bureung_car/CarGame
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 142.52 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 195.27 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.8f1 (b30333d56e81)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/Resources/UnitySubsystems
@@ -63,42 +63,1292 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56924
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56260
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.010802 seconds.
+Registered in 0.011833 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 163.31 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 179.11 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.022 seconds
+- Completed reload, in  1.105 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1023ms)
-		BeginReloadAssembly (116ms)
+	ReloadAssembly (1105ms)
+		BeginReloadAssembly (118ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (737ms)
-			LoadAssemblies (111ms)
+		EndReloadAssembly (779ms)
+			LoadAssemblies (114ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (166ms)
+			SetupTypeCache (177ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (41ms)
-			SetupLoadedEditorAssemblies (449ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (474ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (12ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (163ms)
+				RefreshPlugins (179ms)
 				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (184ms)
-				ProcessInitializeOnLoadMethodAttributes (87ms)
+				ProcessInitializeOnLoadAttributes (200ms)
+				ProcessInitializeOnLoadMethodAttributes (80ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.014164 seconds.
+Registered in 0.014273 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\user\Documents\Bureung-Bureung_car\CarGame\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\user\Documents\Bureung-Bureung_car\CarGame\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 144.63 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.759 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1760ms)
+		BeginReloadAssembly (165ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (27ms)
+		EndReloadAssembly (1425ms)
+			LoadAssemblies (146ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (394ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (83ms)
+			SetupLoadedEditorAssemblies (759ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (145ms)
+				BeforeProcessingInitializeOnLoad (140ms)
+				ProcessInitializeOnLoadAttributes (353ms)
+				ProcessInitializeOnLoadMethodAttributes (104ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 2.36 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5269 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 47 unused Assets / (0.8 MB). Loaded Objects now: 5725.
+Memory consumption went from 210.2 MB to 209.4 MB.
+Total: 7.035600 ms (FindLiveObjects: 0.700300 ms CreateObjectMapping: 0.489500 ms MarkObjects: 5.174400 ms  DeleteObjects: 0.669400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011068 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\user\Documents\Bureung-Bureung_car\CarGame\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\user\Documents\Bureung-Bureung_car\CarGame\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.00 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.121 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2122ms)
+		BeginReloadAssembly (217ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (63ms)
+		EndReloadAssembly (1741ms)
+			LoadAssemblies (162ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (483ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (92ms)
+			SetupLoadedEditorAssemblies (887ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (23ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (184ms)
+				ProcessInitializeOnLoadAttributes (498ms)
+				ProcessInitializeOnLoadMethodAttributes (160ms)
+				AfterProcessingInitializeOnLoad (18ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (44ms)
+Platform modules already initialized, skipping
+Switching render pipeline e1260c1148f6143b28bae5ace5e9c5d1 -> 7b7fd9122c28c4d15b667c7040e3b3fd
+Refreshing native plugins compatible for Editor in 3.07 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5133 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (0.7 MB). Loaded Objects now: 5741.
+Memory consumption went from 201.7 MB to 201.0 MB.
+Total: 7.546600 ms (FindLiveObjects: 1.044600 ms CreateObjectMapping: 0.747200 ms MarkObjects: 4.716100 ms  DeleteObjects: 1.036100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1235485.400761 seconds.
+  path: Assets/Settings/URP-Performant-Renderer.asset
+  artifactKey: Guid(707360a9c581a4bd7aa53bfeb1429f71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/URP-Performant-Renderer.asset using Guid(707360a9c581a4bd7aa53bfeb1429f71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1851fb5d14fdf4fbaae77cf6351644c') in 0.068974 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Settings/URP-Balanced-Renderer.asset
+  artifactKey: Guid(e634585d5c4544dd297acaee93dc2beb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/URP-Balanced-Renderer.asset using Guid(e634585d5c4544dd297acaee93dc2beb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '158e74b70e7b2b9df25652ced2297b78') in 0.005924 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Settings/URP-Balanced.asset
+  artifactKey: Guid(e1260c1148f6143b28bae5ace5e9c5d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/URP-Balanced.asset using Guid(e1260c1148f6143b28bae5ace5e9c5d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6047c07203615f35ba524aebf06ab1ff') in 0.015859 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011605 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\user\Documents\Bureung-Bureung_car\CarGame\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\user\Documents\Bureung-Bureung_car\CarGame\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.00 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.959 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1960ms)
+		BeginReloadAssembly (221ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (73ms)
+		EndReloadAssembly (1577ms)
+			LoadAssemblies (159ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (463ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (89ms)
+			SetupLoadedEditorAssemblies (754ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (22ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (143ms)
+				ProcessInitializeOnLoadAttributes (428ms)
+				ProcessInitializeOnLoadMethodAttributes (141ms)
+				AfterProcessingInitializeOnLoad (16ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (41ms)
+Platform modules already initialized, skipping
+Switching render pipeline e1260c1148f6143b28bae5ace5e9c5d1 -> 7b7fd9122c28c4d15b667c7040e3b3fd
+Refreshing native plugins compatible for Editor in 9.36 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5133 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (0.7 MB). Loaded Objects now: 5760.
+Memory consumption went from 201.8 MB to 201.0 MB.
+Total: 7.333300 ms (FindLiveObjects: 0.652400 ms CreateObjectMapping: 0.419900 ms MarkObjects: 5.104100 ms  DeleteObjects: 1.154100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011130 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\user\Documents\Bureung-Bureung_car\CarGame\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\user\Documents\Bureung-Bureung_car\CarGame\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.21 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.961 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1962ms)
+		BeginReloadAssembly (220ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (64ms)
+		EndReloadAssembly (1574ms)
+			LoadAssemblies (172ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (451ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (82ms)
+			SetupLoadedEditorAssemblies (784ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (25ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (162ms)
+				ProcessInitializeOnLoadAttributes (436ms)
+				ProcessInitializeOnLoadMethodAttributes (140ms)
+				AfterProcessingInitializeOnLoad (17ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (35ms)
+Platform modules already initialized, skipping
+Switching render pipeline e1260c1148f6143b28bae5ace5e9c5d1 -> 7b7fd9122c28c4d15b667c7040e3b3fd
+Refreshing native plugins compatible for Editor in 5.60 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5133 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (0.7 MB). Loaded Objects now: 5776.
+Memory consumption went from 201.8 MB to 201.0 MB.
+Total: 8.534400 ms (FindLiveObjects: 0.932100 ms CreateObjectMapping: 0.675700 ms MarkObjects: 5.668500 ms  DeleteObjects: 1.254400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 18.35 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 30 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (0.7 MB). Loaded Objects now: 5777.
+Memory consumption went from 98.2 MB to 97.5 MB.
+Total: 45.333800 ms (FindLiveObjects: 2.336900 ms CreateObjectMapping: 1.564600 ms MarkObjects: 21.408500 ms  DeleteObjects: 20.017400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1331.212842 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Runtime/Data/UniversalRendererData.asset
+  artifactKey: Guid(ba6e69114eba6af4585b7b850051b2d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/Data/UniversalRendererData.asset using Guid(ba6e69114eba6af4585b7b850051b2d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c96c35f7d216d918165eed4840098e9') in 0.039145 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Runtime/Data/XRSystemData.asset
+  artifactKey: Guid(60e1133243b97e347b653163a8c01b64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/Data/XRSystemData.asset using Guid(60e1133243b97e347b653163a8c01b64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f6454f06d898ff598152d0ac9863ce3') in 0.007210 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 32.566154 seconds.
+  path: Packages/com.unity.render-pipelines.universal/ShaderLibrary/BRDF.hlsl
+  artifactKey: Guid(e325eaafb90d419598a94581ba3335a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/ShaderLibrary/BRDF.hlsl using Guid(e325eaafb90d419598a94581ba3335a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2438a374fd6a143607ffa1dda2f778e0') in 0.017673 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Packages/com.unity.render-pipelines.universal/ShaderLibrary/Clustering.hlsl
+  artifactKey: Guid(5c52f3d26791c415b9e887442bfc817c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/ShaderLibrary/Clustering.hlsl using Guid(5c52f3d26791c415b9e887442bfc817c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16354cce55a7b77385b01824ad1b87bb') in 0.016704 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Packages/com.unity.render-pipelines.universal/ShaderLibrary/DecalInput.hlsl
+  artifactKey: Guid(3e4be2c2c37a850478a159473b68a63f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/ShaderLibrary/DecalInput.hlsl using Guid(3e4be2c2c37a850478a159473b68a63f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1884ddfb060b387e6a054fb49ce75866') in 0.013352 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 73.292337 seconds.
+  path: Assets/Zukomazi - Pro Drift Controller v1/Models/Test Track One/Track/Materials/armco_base.mat
+  artifactKey: Guid(ac1ec7a23da302e48bab987363b432c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zukomazi - Pro Drift Controller v1/Models/Test Track One/Track/Materials/armco_base.mat using Guid(ac1ec7a23da302e48bab987363b432c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82a18ee58de3e94dab61eb023f0affc3') in 0.239834 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Zukomazi - Pro Drift Controller v1/Models/Test Track One/Track/Materials/barriers.mat
+  artifactKey: Guid(cc3c6e8fef492474ca25497e2d4291a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zukomazi - Pro Drift Controller v1/Models/Test Track One/Track/Materials/barriers.mat using Guid(cc3c6e8fef492474ca25497e2d4291a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ec191519b73a01366017b803f0c8c11') in 0.027147 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Zukomazi - Pro Drift Controller v1/Models/Test Track One/Track/Materials/barriersb.mat
+  artifactKey: Guid(8da12b32200ea66419e0197bd566c232) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zukomazi - Pro Drift Controller v1/Models/Test Track One/Track/Materials/barriersb.mat using Guid(8da12b32200ea66419e0197bd566c232) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6f7b55e704d8981d398f9627f401f6e') in 0.033794 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Zukomazi - Pro Drift Controller v1/Models/Test Track One/Track/Materials/basicpanelc.mat
+  artifactKey: Guid(932f89025f23f82478a0817e6821a7fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zukomazi - Pro Drift Controller v1/Models/Test Track One/Track/Materials/basicpanelc.mat using Guid(932f89025f23f82478a0817e6821a7fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbb8f84131ddba4e364b589f25440f34') in 0.022261 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Zukomazi - Pro Drift Controller v1/Models/Test Track One/Track/Materials/armcoposts.mat
+  artifactKey: Guid(39481cabcdfcf0748a1da496533a2273) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zukomazi - Pro Drift Controller v1/Models/Test Track One/Track/Materials/armcoposts.mat using Guid(39481cabcdfcf0748a1da496533a2273) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0469806806eedd1681514f1866d38cb6') in 0.027471 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.766197 seconds.
+  path: Assets/Zukomazi - Pro Drift Controller v1/Models/Test Track One/Track/Materials/bbrdback.mat
+  artifactKey: Guid(a7fd31ac4e71d9f45ae3c06c893cbe03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zukomazi - Pro Drift Controller v1/Models/Test Track One/Track/Materials/bbrdback.mat using Guid(a7fd31ac4e71d9f45ae3c06c893cbe03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a83d8b8a0a10f938331578a689d139f5') in 0.023140 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/04_metrial/damin/blank/blank_idle_L.mat
+  artifactKey: Guid(9b27784afc4b9524c90f3bf5efc842ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04_metrial/damin/blank/blank_idle_L.mat using Guid(9b27784afc4b9524c90f3bf5efc842ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b298b2dbd73b879e6c3196540cf08c2') in 0.030196 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/04_metrial/damin/blank/blank_idle_R.mat
+  artifactKey: Guid(20518d171c090824f8cf68105df8a32d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04_metrial/damin/blank/blank_idle_R.mat using Guid(20518d171c090824f8cf68105df8a32d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '816c977f1c894b069f97d654bc181904') in 0.021944 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/EffectExamples/Weapon Effects/Materials/BulletDecalStone.mat
+  artifactKey: Guid(a29767879f97b364393df3a772628180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EffectExamples/Weapon Effects/Materials/BulletDecalStone.mat using Guid(a29767879f97b364393df3a772628180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40cace1e07a9df5dd893213817729397') in 0.186574 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/RealisticMobileCars - Pro 3D Models/Vehicles/Main/Materials/Numbers_License_Plate/Eu_Number_I.mat
+  artifactKey: Guid(ebefac143957203478f81c14bf50dde7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RealisticMobileCars - Pro 3D Models/Vehicles/Main/Materials/Numbers_License_Plate/Eu_Number_I.mat using Guid(ebefac143957203478f81c14bf50dde7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a08c1e13d08b217055cd8d21fab6b927') in 0.026793 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/Zukomazi - Pro Drift Controller v1/Models/Test Track One/Track/Materials/gridworkb.mat
+  artifactKey: Guid(0540e559ce583f84ebb9aa7c2e7a66a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zukomazi - Pro Drift Controller v1/Models/Test Track One/Track/Materials/gridworkb.mat using Guid(0540e559ce583f84ebb9aa7c2e7a66a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e59806e9d600d0a90680d1edcbbac0bf') in 0.025243 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/04_metrial/damin/BrakeLight 1.mat
+  artifactKey: Guid(4dad47c3c9c77414ab02ba7ded58fd6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04_metrial/damin/BrakeLight 1.mat using Guid(4dad47c3c9c77414ab02ba7ded58fd6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea9dc690e2823a042c3efa4124590689') in 0.020839 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Thin.ttf
+  artifactKey: Guid(19a9abb883540be48b75b951a927ae03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Thin.ttf using Guid(19a9abb883540be48b75b951a927ae03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83a5003081b80100a1aa85d4c8919bff') in 0.062376 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Materials/material2t040100010000000110110100110010000110110te.mat
+  artifactKey: Guid(96a82b1ba6ba0ce45a388118032503e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Materials/material2t040100010000000110110100110010000110110te.mat using Guid(96a82b1ba6ba0ce45a388118032503e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca3e7bb05e161d47bf01f934ae18726f') in 0.077520 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Shared/Environment/Materials/MetalRailing.mat
+  artifactKey: Guid(50d6c6916e743b64c8b4e4282f2c9603) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shared/Environment/Materials/MetalRailing.mat using Guid(50d6c6916e743b64c8b4e4282f2c9603) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8021d9680308a0a87a167643ced9a739') in 0.028488 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/RealisticMobileCars - Pro 3D Models/Vehicles/Main/Materials/Numbers_License_Plate/Eu_Number_T.mat
+  artifactKey: Guid(ef3c45f6bb05f864aacbe86f1ab49422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RealisticMobileCars - Pro 3D Models/Vehicles/Main/Materials/Numbers_License_Plate/Eu_Number_T.mat using Guid(ef3c45f6bb05f864aacbe86f1ab49422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a6f694de2dea71de3c098a0418e3775') in 0.030148 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Materials/material26t040100010000000110110100110010000110000st.mat
+  artifactKey: Guid(221bb6dd8ea020443b05cf6f23eb0723) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Materials/material26t040100010000000110110100110010000110000st.mat using Guid(221bb6dd8ea020443b05cf6f23eb0723) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd325cb1616a059da0fe7a4bfbb20c4a2') in 0.064868 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/EffectExamples/Fire & Explosion Effects/Materials/TinyFlame.mat
+  artifactKey: Guid(2a24b896dbe48144ab8d4a90468ad00e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EffectExamples/Fire & Explosion Effects/Materials/TinyFlame.mat using Guid(2a24b896dbe48144ab8d4a90468ad00e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b1ca0004d9e6c632612c4d6a4f00336') in 0.128351 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/RealisticMobileCars - Pro 3D Models/Vehicles/Main/Materials/Numbers_License_Plate/Eu_Number_E.mat
+  artifactKey: Guid(9be89021345f1d84596500ac529fcce1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RealisticMobileCars - Pro 3D Models/Vehicles/Main/Materials/Numbers_License_Plate/Eu_Number_E.mat using Guid(9be89021345f1d84596500ac529fcce1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b24910d820e4f7083e9bdf9bc329732') in 0.026642 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/RealisticMobileCars - Pro 3D Models/Vehicles/Main/Materials/Numbers_License_Plate/Eu_Number_F.mat
+  artifactKey: Guid(16ba3bb6878c2974e91a73a1a3236dea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RealisticMobileCars - Pro 3D Models/Vehicles/Main/Materials/Numbers_License_Plate/Eu_Number_F.mat using Guid(16ba3bb6878c2974e91a73a1a3236dea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89481b330cc5dc2ee7682cf6f3d2d091') in 0.026298 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/EffectExamples/Smoke & Steam Effects/Materials/Flame01.mat
+  artifactKey: Guid(e43d70c08c6bf7e4aa274e46393928b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EffectExamples/Smoke & Steam Effects/Materials/Flame01.mat using Guid(e43d70c08c6bf7e4aa274e46393928b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da5bf16d51252f58af8facfa358599e7') in 0.103432 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/RealisticMobileCars - Pro 3D Models/Vehicles/Main/Materials/Numbers_License_Plate/Eu_Number_Z.mat
+  artifactKey: Guid(e53300bc44c8da14ebd4cccc344dd35a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RealisticMobileCars - Pro 3D Models/Vehicles/Main/Materials/Numbers_License_Plate/Eu_Number_Z.mat using Guid(e53300bc44c8da14ebd4cccc344dd35a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1d5bc8bae334f01a845fdf19f455acb') in 0.029674 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/SpatialMappingOcclusion.mat
+  artifactKey: Guid(b51db210fe78df745a372851b3db949e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/SpatialMappingOcclusion.mat using Guid(b51db210fe78df745a372851b3db949e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9385fcf72c2fddc85ae9629c460e05f') in 0.028238 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-MediumItalic.ttf
+  artifactKey: Guid(d93c1bc57fdf1ac4dad1bf04fac05464) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-MediumItalic.ttf using Guid(d93c1bc57fdf1ac4dad1bf04fac05464) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '489de4ed9b5d855bd37f4ee903a160bc') in 0.032483 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Zukomazi - Pro Drift Controller v1/Models/Test Track One/Track/Materials/sponsor_d3_grnd.mat
+  artifactKey: Guid(f2211960116397d4f966cfb4440a7cb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zukomazi - Pro Drift Controller v1/Models/Test Track One/Track/Materials/sponsor_d3_grnd.mat using Guid(f2211960116397d4f966cfb4440a7cb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4eae8c0020a5f11163689eef8846761') in 0.040210 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Zukomazi - Pro Drift Controller v1/Models/Test Track One/Track/Materials/rumcap2green.mat
+  artifactKey: Guid(a26cc8acb1cc0534c96987fefce4ddc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zukomazi - Pro Drift Controller v1/Models/Test Track One/Track/Materials/rumcap2green.mat using Guid(a26cc8acb1cc0534c96987fefce4ddc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1320b381cb2200e0754842c00b599db4') in 0.020277 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Zukomazi - Pro Drift Controller v1/Models/Test Track One/Track/Materials/sponsor_a1_bbrds.mat
+  artifactKey: Guid(c461a3b250dc9b84786b434cc6ddeddd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zukomazi - Pro Drift Controller v1/Models/Test Track One/Track/Materials/sponsor_a1_bbrds.mat using Guid(c461a3b250dc9b84786b434cc6ddeddd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '143052a04c63e24a8f5a78a1a5116bfc') in 0.023013 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/Zukomazi - Pro Drift Controller v1/Models/Test Track One/Track/Materials/sponsor_c1_bbrds.mat
+  artifactKey: Guid(24d675cc4887fc44d9aeddadd9eb4fb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zukomazi - Pro Drift Controller v1/Models/Test Track One/Track/Materials/sponsor_c1_bbrds.mat using Guid(24d675cc4887fc44d9aeddadd9eb4fb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7569be33e2b0723f4ce074385ae55c2a') in 0.025646 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/RealisticMobileCars - Pro 3D Models/Vehicles/Main/Materials/Numbers_License_Plate/Usa_Number_8.mat
+  artifactKey: Guid(9a4a7d971451c884d84e8ba23243bc35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RealisticMobileCars - Pro 3D Models/Vehicles/Main/Materials/Numbers_License_Plate/Usa_Number_8.mat using Guid(9a4a7d971451c884d84e8ba23243bc35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12212f24ad131eb43d431e676f87b720') in 0.044708 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Zukomazi - Pro Drift Controller v1/Models/Test Track One/Track/Materials/treewalla.mat
+  artifactKey: Guid(186ca9e0d9d804047bc792f2a8b2f763) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zukomazi - Pro Drift Controller v1/Models/Test Track One/Track/Materials/treewalla.mat using Guid(186ca9e0d9d804047bc792f2a8b2f763) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83ad34150901e296beade9b0ef86fab4') in 0.022893 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Zukomazi - Pro Drift Controller v1/Models/bmw-m1-procar/Materials/bmw_m1_procar_livery.mat
+  artifactKey: Guid(20b4eb390f0253147b9c89c4760c7d3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zukomazi - Pro Drift Controller v1/Models/bmw-m1-procar/Materials/bmw_m1_procar_livery.mat using Guid(20b4eb390f0253147b9c89c4760c7d3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06cc29ad59a81f022a984c4f0ad3d199') in 0.047004 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000104 seconds.
+  path: Assets/EffectExamples/Water Effects/Materials/Water.mat
+  artifactKey: Guid(967578261f8e13142b10ed604e91b64b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EffectExamples/Water Effects/Materials/Water.mat using Guid(967578261f8e13142b10ed604e91b64b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f7c916d7e69574aa2e5baac694f48da') in 0.039982 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Zukomazi - Pro Drift Controller v1/Models/Test Track One/Track/Materials/ylolt.mat
+  artifactKey: Guid(614423ac2a5f90e40aea5558e354af3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zukomazi - Pro Drift Controller v1/Models/Test Track One/Track/Materials/ylolt.mat using Guid(614423ac2a5f90e40aea5558e354af3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54fb62a678d9c91cd7c88d1bcbda8eb2') in 0.029210 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Materials/material2t040100010000000110110100010110100110100te.mat
+  artifactKey: Guid(4cdf0467c6ca361469526b419ef2609f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Materials/material2t040100010000000110110100010110100110100te.mat using Guid(4cdf0467c6ca361469526b419ef2609f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1120b86fc8088a4eb07957d1b0bcfcce') in 0.032971 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/EffectExamples/Fire & Explosion Effects/Materials/PlasmaFire.mat
+  artifactKey: Guid(b5387d3c2ba98fc44a0f5744f94ce48c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EffectExamples/Fire & Explosion Effects/Materials/PlasmaFire.mat using Guid(b5387d3c2ba98fc44a0f5744f94ce48c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b879d380e9c5fcde6f8485dfc505b9ab') in 0.054430 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000102 seconds.
+  path: Assets/EffectExamples/Fire & Explosion Effects/Materials/Flame02.mat
+  artifactKey: Guid(bd8c234372a08af408b82538314378fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EffectExamples/Fire & Explosion Effects/Materials/Flame02.mat using Guid(bd8c234372a08af408b82538314378fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c24edc737444d9ca2dbdba596221cd6') in 0.046036 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Zukomazi - Pro Drift Controller v1/Models/Test Track One/Track/Materials/track_pitlaned.mat
+  artifactKey: Guid(e20ce6955d10aa240ae932147d10c827) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zukomazi - Pro Drift Controller v1/Models/Test Track One/Track/Materials/track_pitlaned.mat using Guid(e20ce6955d10aa240ae932147d10c827) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '536e8d47989d63c2837637c25d9f258a') in 0.029589 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Zukomazi - Pro Drift Controller v1/Models/Test Track One/Skyboxes/Test Track One Skybox 2.mat
+  artifactKey: Guid(0dc5aa231a444934b93bcd6377c42e94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zukomazi - Pro Drift Controller v1/Models/Test Track One/Skyboxes/Test Track One Skybox 2.mat using Guid(0dc5aa231a444934b93bcd6377c42e94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64d5b8bbe66673ed97e6d3c662a3ebb3') in 0.151613 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Materials/material0t040100010000000110110100110010010100000st.mat
+  artifactKey: Guid(05fe016a71c63d34a8a15d55545b7852) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Materials/material0t040100010000000110110100110010010100000st.mat using Guid(05fe016a71c63d34a8a15d55545b7852) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c4885dcb3f7d44ad9e3d598544096ba') in 0.035393 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/EffectExamples/Water Effects/Materials/WaterFog.mat
+  artifactKey: Guid(ccf7149889a0eb64faa9cba40c767ff0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EffectExamples/Water Effects/Materials/WaterFog.mat using Guid(ccf7149889a0eb64faa9cba40c767ff0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec06284a7362420851b7df24ad217de2') in 0.069610 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/RealisticMobileCars - Pro 3D Models/Vehicles/Main/Materials/Numbers_License_Plate/Usa_Number_F.mat
+  artifactKey: Guid(ded02d63f8cd12244a2769f03e6d3784) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RealisticMobileCars - Pro 3D Models/Vehicles/Main/Materials/Numbers_License_Plate/Usa_Number_F.mat using Guid(ded02d63f8cd12244a2769f03e6d3784) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea1b22797e6957bac8269b5873de4edb') in 0.026785 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/RealisticMobileCars - Pro 3D Models/Vehicles/Main/Materials/Numbers_License_Plate/Usa_Number_W.mat
+  artifactKey: Guid(a5f5f24063c0cbe4dbdc42f88b5f0725) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RealisticMobileCars - Pro 3D Models/Vehicles/Main/Materials/Numbers_License_Plate/Usa_Number_W.mat using Guid(a5f5f24063c0cbe4dbdc42f88b5f0725) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21d4be87185c5e3791fbf27cbbbae069') in 0.029969 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Materials/material15t040100010000000110110100010110100100110st.mat
+  artifactKey: Guid(5a25bdaf2fb7dac4dbfbbed958d5da2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Materials/material15t040100010000000110110100010110100100110st.mat using Guid(5a25bdaf2fb7dac4dbfbbed958d5da2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af2803a2c71186f21d394f9975ef84fa') in 0.043730 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Bold.ttf
+  artifactKey: Guid(3750c318f40cab44a97d3a81beaefeb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Bold.ttf using Guid(3750c318f40cab44a97d3a81beaefeb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4c0f358cf734833c3c5dc4b76239b56') in 0.038913 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Shared/Environment/Materials/ShadowCaster.mat
+  artifactKey: Guid(a7fc4133adf16c3409305f2ee9ed4ea8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shared/Environment/Materials/ShadowCaster.mat using Guid(a7fc4133adf16c3409305f2ee9ed4ea8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '770344a225eae363efa723ef77a4767e') in 0.033556 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Zukomazi - Pro Drift Controller v1/Models/Test Track One/Track/Materials/track_singlespot.mat
+  artifactKey: Guid(3b4572c7e72e9b14da8f6e8af1f65eff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zukomazi - Pro Drift Controller v1/Models/Test Track One/Track/Materials/track_singlespot.mat using Guid(3b4572c7e72e9b14da8f6e8af1f65eff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7588af18d0ff81dc385fd97f5a45de9c') in 0.032457 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/EffectExamples/Misc Effects/Materials/FireFly.mat
+  artifactKey: Guid(5471faebdbcc34e47baecfecda463063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EffectExamples/Misc Effects/Materials/FireFly.mat using Guid(5471faebdbcc34e47baecfecda463063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f70322ce50ebc81592e4f838d3a990f') in 0.045330 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/RealisticMobileCars - Pro 3D Models/Vehicles/Main/Materials/Numbers_License_Plate/Usa_Number_N.mat
+  artifactKey: Guid(8139b5a497b24894a998ea374d7bb610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RealisticMobileCars - Pro 3D Models/Vehicles/Main/Materials/Numbers_License_Plate/Usa_Number_N.mat using Guid(8139b5a497b24894a998ea374d7bb610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b72d16a819ed1972e87fbeb28af09109') in 0.039173 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Zukomazi - Pro Drift Controller v1/Models/Test Track One/Track/Materials/tiresb_black.mat
+  artifactKey: Guid(1ad92ca30ca4d6e4c81c6ab87de579e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zukomazi - Pro Drift Controller v1/Models/Test Track One/Track/Materials/tiresb_black.mat using Guid(1ad92ca30ca4d6e4c81c6ab87de579e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae0680dd79e271bb47aa17d3624d9912') in 0.035643 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/RealisticMobileCars - Pro 3D Models/Vehicles/Main/Materials/Numbers_License_Plate/Eu_Number_8.mat
+  artifactKey: Guid(ce06cc4a8de11f642bc4d4ba520263ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RealisticMobileCars - Pro 3D Models/Vehicles/Main/Materials/Numbers_License_Plate/Eu_Number_8.mat using Guid(ce06cc4a8de11f642bc4d4ba520263ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0622fa082074c4f727012e12329ccde2') in 0.030772 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/04_metrial/damin/brerakLightBright.mat
+  artifactKey: Guid(fccf500b87eb2184a8d4ccdac528e92a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04_metrial/damin/brerakLightBright.mat using Guid(fccf500b87eb2184a8d4ccdac528e92a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c320b762ad0105812f5a155d971418e0') in 0.033210 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Zukomazi - Pro Drift Controller v1/Models/Test Track One/Track/Materials/gstandbeam.mat
+  artifactKey: Guid(9cddc7d8946ed364aa1bc1b1b8c33349) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zukomazi - Pro Drift Controller v1/Models/Test Track One/Track/Materials/gstandbeam.mat using Guid(9cddc7d8946ed364aa1bc1b1b8c33349) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '343a8864e0b12e1d991b200d4480af41') in 0.034909 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/RealisticMobileCars - Pro 3D Models/Vehicles/Main/Materials/Numbers_License_Plate/Eu_Number_L.mat
+  artifactKey: Guid(9b6dac862d6d74d489fbfb8f02d12e63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RealisticMobileCars - Pro 3D Models/Vehicles/Main/Materials/Numbers_License_Plate/Eu_Number_L.mat using Guid(9b6dac862d6d74d489fbfb8f02d12e63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0bdaee8fcc970157f85021b04a04152') in 0.037997 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/EffectExamples/Weapon Effects/Materials/WoodSplintersParticle.mat
+  artifactKey: Guid(fd8ebe3c7242d364bae68f1548ae70bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EffectExamples/Weapon Effects/Materials/WoodSplintersParticle.mat using Guid(fd8ebe3c7242d364bae68f1548ae70bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '434a28984c4161a05f242de97bdee2eb') in 0.105817 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/RealisticMobileCars - Pro 3D Models/Vehicles/Main/Materials/Numbers_License_Plate/Usa_Number_Y.mat
+  artifactKey: Guid(a648deab6c452e44c853396ab3509106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RealisticMobileCars - Pro 3D Models/Vehicles/Main/Materials/Numbers_License_Plate/Usa_Number_Y.mat using Guid(a648deab6c452e44c853396ab3509106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92c98a195eccdad7825c2bac3f5ad7e7') in 0.024667 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Medium.ttf
+  artifactKey: Guid(a51a3aebb43ac044989270407476b208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Medium.ttf using Guid(a51a3aebb43ac044989270407476b208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96defca4f106dc33c2f315ccf7c530c8') in 0.032885 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/BrokenVector/LowPolyRoadPack/Materials/Light.mat
+  artifactKey: Guid(b73916d937ddb5b428608e0d5072412b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyRoadPack/Materials/Light.mat using Guid(b73916d937ddb5b428608e0d5072412b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef3ba553abba7c3ff30d7d3a3f2db735') in 0.027860 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-BoldItalic.ttf
+  artifactKey: Guid(dfb97a9307a577a41bcacba34b9a7e32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-BoldItalic.ttf using Guid(dfb97a9307a577a41bcacba34b9a7e32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '312ae4b02b125890d7853d01d92c673d') in 0.038739 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Zukomazi - Pro Drift Controller v1/Models/Test Track One/Track/Materials/gstand_rail.mat
+  artifactKey: Guid(1c2414b4ca58a5a4f9cf19b65143937f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zukomazi - Pro Drift Controller v1/Models/Test Track One/Track/Materials/gstand_rail.mat using Guid(1c2414b4ca58a5a4f9cf19b65143937f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '663064bbfaa3055baf58563063ceab7e') in 0.020904 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/RealisticMobileCars - Pro 3D Models/Vehicles/Main/Materials/Numbers_License_Plate/Usa_Number_R.mat
+  artifactKey: Guid(ecd01f9966a385d4f8375e8f516e79a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RealisticMobileCars - Pro 3D Models/Vehicles/Main/Materials/Numbers_License_Plate/Usa_Number_R.mat using Guid(ecd01f9966a385d4f8375e8f516e79a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '177b8d19df3c715b79a639ea5916b081') in 0.031034 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/RealisticMobileCars - Pro 3D Models/Vehicles/Main/Materials/Numbers_License_Plate/Eu_Number_3.mat
+  artifactKey: Guid(2a46d42972ea9c54bb0a6fe1f00191e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RealisticMobileCars - Pro 3D Models/Vehicles/Main/Materials/Numbers_License_Plate/Eu_Number_3.mat using Guid(2a46d42972ea9c54bb0a6fe1f00191e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6daabbf729fcb3f6cc3e5da1cf9a55fa') in 0.030436 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Materials/material0t040100010000000110110100110010010100100st.mat
+  artifactKey: Guid(819f2c61ff0511647b6017304b08c9da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Materials/material0t040100010000000110110100110010010100100st.mat using Guid(819f2c61ff0511647b6017304b08c9da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88f59c611d4ec274830a5382a679f4a1') in 0.030975 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Materials/material0t040100010000000110110100010110100100110te.mat
+  artifactKey: Guid(66254056164f44a41bf82d59f80319c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Materials/material0t040100010000000110110100010110100100110te.mat using Guid(66254056164f44a41bf82d59f80319c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ab1ad7a1fc0ea7a59803e793ae89ef7') in 0.024704 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Zukomazi - Pro Drift Controller v1/Models/Test Track One/Track/Materials/oldwall.mat
+  artifactKey: Guid(9869c8ecd7cad0c429940795893d2cb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zukomazi - Pro Drift Controller v1/Models/Test Track One/Track/Materials/oldwall.mat using Guid(9869c8ecd7cad0c429940795893d2cb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '474aaa4ff645599693a0fb7e7d7e9020') in 0.038105 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Black.ttf
+  artifactKey: Guid(1062c701058745940ae5dca6219c64c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Black.ttf using Guid(1062c701058745940ae5dca6219c64c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33cf7121c862a89df70e3263c9ddc6c4') in 0.032143 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/RealisticMobileCars - Pro 3D Models/Vehicles/Main/Materials/Numbers_License_Plate/Eu_Number_9.mat
+  artifactKey: Guid(2dfc1af2bdae8f84f88708dcc286972b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RealisticMobileCars - Pro 3D Models/Vehicles/Main/Materials/Numbers_License_Plate/Eu_Number_9.mat using Guid(2dfc1af2bdae8f84f88708dcc286972b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14abcb4e0dc7e0ad443b29022edd2fdf') in 0.024099 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Zukomazi - Pro Drift Controller v1/Models/Test Track One/Track/Materials/tentwalla.mat
+  artifactKey: Guid(9c63d2255950b8e4ba83d788598bf755) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zukomazi - Pro Drift Controller v1/Models/Test Track One/Track/Materials/tentwalla.mat using Guid(9c63d2255950b8e4ba83d788598bf755) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '266e784e4f8d987d84e1802ed04ee856') in 0.022819 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Regular.ttf
+  artifactKey: Guid(30dc370b164eefc43b95744fc796dad0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Regular.ttf using Guid(30dc370b164eefc43b95744fc796dad0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b51f738ea06cbf9a5db7bfdd5cfd605e') in 0.033024 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/RealisticMobileCars - Pro 3D Models/Vehicles/RMCarDemo/Meshes/Materials/RMCarDemo_Paint.mat
+  artifactKey: Guid(3526717e4f563c643be295f5d28f5e40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RealisticMobileCars - Pro 3D Models/Vehicles/RMCarDemo/Meshes/Materials/RMCarDemo_Paint.mat using Guid(3526717e4f563c643be295f5d28f5e40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f7b903bbd9eed65bbe179ac6bf071a1') in 0.028587 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/RealisticMobileCars - Pro 3D Models/Vehicles/Main/Materials/Numbers_License_Plate/Eu_Number_J.mat
+  artifactKey: Guid(bf6cb51ea890b074d8a340b45e779ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RealisticMobileCars - Pro 3D Models/Vehicles/Main/Materials/Numbers_License_Plate/Eu_Number_J.mat using Guid(bf6cb51ea890b074d8a340b45e779ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce7ff05b2ea9e358c7e85f020fe519ff') in 0.029111 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Zukomazi - Pro Drift Controller v1/Models/Test Track One/Track/Materials/concretewall.mat
+  artifactKey: Guid(81358b080ec446241b1255712cc3b088) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zukomazi - Pro Drift Controller v1/Models/Test Track One/Track/Materials/concretewall.mat using Guid(81358b080ec446241b1255712cc3b088) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd951d323704b0491e1f13fee7546393b') in 0.022658 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Zukomazi - Pro Drift Controller v1/Models/Test Track One/Track/Materials/towerwindow.mat
+  artifactKey: Guid(77cd5ff35474015429a3cf53200fa6f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zukomazi - Pro Drift Controller v1/Models/Test Track One/Track/Materials/towerwindow.mat using Guid(77cd5ff35474015429a3cf53200fa6f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b67c3b737a8fba71126752a0e4dd519') in 0.025195 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Zukomazi - Pro Drift Controller v1/Models/Test Track One/Track/Materials/track_2greenc.mat
+  artifactKey: Guid(d6888ba70f0094a40868c5d0420a5396) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zukomazi - Pro Drift Controller v1/Models/Test Track One/Track/Materials/track_2greenc.mat using Guid(d6888ba70f0094a40868c5d0420a5396) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed884da5e0ddbdf52fda4b161429d2c9') in 0.020496 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/EffectExamples/Weapon Effects/Materials/MetalSparks.mat
+  artifactKey: Guid(d8002e76dc5e4904f90dc137b3f085ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EffectExamples/Weapon Effects/Materials/MetalSparks.mat using Guid(d8002e76dc5e4904f90dc137b3f085ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6df8a84122ab328cfbe19515e5e8e484') in 0.102265 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/EffectExamples/Smoke & Steam Effects/Materials/SandParticle.mat
+  artifactKey: Guid(e689f2433ec031e41ae61c69dfb6db02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EffectExamples/Smoke & Steam Effects/Materials/SandParticle.mat using Guid(e689f2433ec031e41ae61c69dfb6db02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a95f63d68b1b8424cd1880788c6cdc01') in 1.526922 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Zukomazi - Pro Drift Controller v1/Models/Test Track One/Track/Materials/treeg.mat
+  artifactKey: Guid(4bc394a8a05a5c14ca5064020b792e10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zukomazi - Pro Drift Controller v1/Models/Test Track One/Track/Materials/treeg.mat using Guid(4bc394a8a05a5c14ca5064020b792e10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd984af946aae10da5df3e9ceece10909') in 0.018957 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Zukomazi - Pro Drift Controller v1/Models/Test Track One/Track/Materials/treewallb.mat
+  artifactKey: Guid(41b5daa3d14b6a0429c760950e051021) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zukomazi - Pro Drift Controller v1/Models/Test Track One/Track/Materials/treewallb.mat using Guid(41b5daa3d14b6a0429c760950e051021) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56344af4b30ff82cfdd1e9a23228fb00') in 0.027362 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/EffectExamples/Weapon Effects/Materials/TinyStonesParticle.mat
+  artifactKey: Guid(4ac7c4f70dacbc742a33d842cebc2157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EffectExamples/Weapon Effects/Materials/TinyStonesParticle.mat using Guid(4ac7c4f70dacbc742a33d842cebc2157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c3c56fdd4abd57bdf2b79732e939ae0') in 0.063912 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/04_metrial/damin/brerakLightIdle.mat
+  artifactKey: Guid(9bc8d9ba161e2c94aa42b2391a854e9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04_metrial/damin/brerakLightIdle.mat using Guid(9bc8d9ba161e2c94aa42b2391a854e9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f79f39999220c831377084be39714e4') in 0.026275 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000102 seconds.
+  path: Assets/EffectExamples/Weapon Effects/Materials/WoodSurface.mat
+  artifactKey: Guid(ce4b77858ec6c0f469b07b034c21a85f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EffectExamples/Weapon Effects/Materials/WoodSurface.mat using Guid(ce4b77858ec6c0f469b07b034c21a85f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff6055aaf1b27f7a8a8800b0d32bcb7b') in 0.075434 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/RealisticMobileCars - Pro 3D Models/Vehicles/Main/Materials/Numbers_License_Plate/Eu_Number_2.mat
+  artifactKey: Guid(6ed8e19c9dace3249ab41fca7f75839d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RealisticMobileCars - Pro 3D Models/Vehicles/Main/Materials/Numbers_License_Plate/Eu_Number_2.mat using Guid(6ed8e19c9dace3249ab41fca7f75839d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddc09364909d75fb5ad11e764ce08d60') in 0.025572 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/EffectExamples/Magic Effects/Materials/IceMist.mat
+  artifactKey: Guid(c32a9cac58b398741add6365fbc2e883) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EffectExamples/Magic Effects/Materials/IceMist.mat using Guid(c32a9cac58b398741add6365fbc2e883) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d90121259f36ca30dc91e04a16a84c4') in 0.040935 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Materials/material2t040100010000000110110100110010010100100te.mat
+  artifactKey: Guid(9cceadb62b5c0044b9dde1d613146b33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Materials/material2t040100010000000110110100110010010100100te.mat using Guid(9cceadb62b5c0044b9dde1d613146b33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2320afc4ff9b094cbc822bad9e270267') in 0.033666 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/EffectExamples/Weapon Effects/Materials/BulletFleshDecal.mat
+  artifactKey: Guid(d771645f9ac10d241b18277409d02a55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EffectExamples/Weapon Effects/Materials/BulletFleshDecal.mat using Guid(d771645f9ac10d241b18277409d02a55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '145ddf361d57a188fbce24e1af0c90a4') in 0.056657 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Zukomazi - Pro Drift Controller v1/Models/Test Track One/Track/Materials/track_old.mat
+  artifactKey: Guid(59c416c1c5502fa408b6c321a5b4689e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zukomazi - Pro Drift Controller v1/Models/Test Track One/Track/Materials/track_old.mat using Guid(59c416c1c5502fa408b6c321a5b4689e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9466da43ff282ca0c0488ae3845453bf') in 0.030525 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-BlackItalic.ttf
+  artifactKey: Guid(f95147a9bab9fe649b8070170fa7ebd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-BlackItalic.ttf using Guid(f95147a9bab9fe649b8070170fa7ebd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b85386885d2e03046608750cb4bbfa7') in 0.042505 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000106 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Materials/material12t040100010000000110110100010110100100110st.mat
+  artifactKey: Guid(d6d89a09968b5774e9333d2ad769bde3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Materials/material12t040100010000000110110100010110100100110st.mat using Guid(d6d89a09968b5774e9333d2ad769bde3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a754c49ec431f9c11e4dc82b1eddc042') in 0.038519 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/EffectExamples/Fire & Explosion Effects/Materials/LargeFlame02.mat
+  artifactKey: Guid(b25dd701bdc692249907c8b4e4b784b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EffectExamples/Fire & Explosion Effects/Materials/LargeFlame02.mat using Guid(b25dd701bdc692249907c8b4e4b784b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9030ad8c4b747b62b3d39a46dc5f6fe6') in 0.064033 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/RealisticMobileCars - Pro 3D Models/Vehicles/Main/Materials/Numbers_License_Plate/Usa_Number_P.mat
+  artifactKey: Guid(390f348392b6e0d438c6ec484bffdec8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RealisticMobileCars - Pro 3D Models/Vehicles/Main/Materials/Numbers_License_Plate/Usa_Number_P.mat using Guid(390f348392b6e0d438c6ec484bffdec8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12300366ac4bcd4ccaf91078f9ac2893') in 0.032823 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Zukomazi - Pro Drift Controller v1/Models/Test Track One/Track/Materials/rumcap2grvl.mat
+  artifactKey: Guid(49be97c3c05c5d84da2df81ff2f453b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zukomazi - Pro Drift Controller v1/Models/Test Track One/Track/Materials/rumcap2grvl.mat using Guid(49be97c3c05c5d84da2df81ff2f453b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43e8c937ec01c6e7f5714fd51a00dcc5') in 0.025370 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Zukomazi - Pro Drift Controller v1/Models/Test Track One/Track/Materials/fencingb.mat
+  artifactKey: Guid(bb0dc81d613d64346a95ede2fca2feb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zukomazi - Pro Drift Controller v1/Models/Test Track One/Track/Materials/fencingb.mat using Guid(bb0dc81d613d64346a95ede2fca2feb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2444cd431118d68c1f73b4bbcc5c4fbe') in 0.027483 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Zukomazi - Pro Drift Controller v1/Models/Test Track One/Track/Materials/tires_red.mat
+  artifactKey: Guid(95215abdcf581af4383e84190f65fe8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zukomazi - Pro Drift Controller v1/Models/Test Track One/Track/Materials/tires_red.mat using Guid(95215abdcf581af4383e84190f65fe8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75df3070a3cc5d1b2484c572b9d85b6d') in 0.026252 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/SpriteMask-Default.mat
+  artifactKey: Guid(15d0c3709176029428a0da2f8cecf0b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/SpriteMask-Default.mat using Guid(15d0c3709176029428a0da2f8cecf0b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '963d8db990e442aa3e16c972f2ea4f49') in 0.022053 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/EffectExamples/Fire & Explosion Effects/Materials/Flame03.mat
+  artifactKey: Guid(d7f098ed9997e714193be5e86df013f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EffectExamples/Fire & Explosion Effects/Materials/Flame03.mat using Guid(d7f098ed9997e714193be5e86df013f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c60f43fe48a3ced4ca35d182b020e54') in 0.050810 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Zukomazi - Pro Drift Controller v1/Models/Test Track One/Track/Materials/props_a.mat
+  artifactKey: Guid(177c6ed7b460ff14bbd5f7328ecdfcc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zukomazi - Pro Drift Controller v1/Models/Test Track One/Track/Materials/props_a.mat using Guid(177c6ed7b460ff14bbd5f7328ecdfcc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24ee3e81b29b0790c6a084d442a0cf52') in 0.023557 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/RealisticMobileCars - Pro 3D Models/Vehicles/Main/Materials/Numbers_License_Plate/Eu_Number_C.mat
+  artifactKey: Guid(af041fba797db6943b51d30be8220292) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RealisticMobileCars - Pro 3D Models/Vehicles/Main/Materials/Numbers_License_Plate/Eu_Number_C.mat using Guid(af041fba797db6943b51d30be8220292) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2aa99ee7c5e1c6600a3162fd1da2af09') in 0.027522 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Materials/material2t040100010000000110110100110010010000100te.mat
+  artifactKey: Guid(863f84b4cf9bac640a18f2f046208677) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Materials/material2t040100010000000110110100110010010000100te.mat using Guid(863f84b4cf9bac640a18f2f046208677) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'faf1e986b6363bd6e83c288eb199d887') in 0.034777 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/EffectExamples/Misc Effects/Materials/FireFlyTrail.mat
+  artifactKey: Guid(1d11412570f90ba4caf1b0b6dea27152) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EffectExamples/Misc Effects/Materials/FireFlyTrail.mat using Guid(1d11412570f90ba4caf1b0b6dea27152) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5c01b0b07ca03c7952cc4fc5438b051') in 0.029488 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/Zukomazi - Pro Drift Controller v1/Models/Test Track One/Track/Materials/rdlt.mat
+  artifactKey: Guid(710ac6fd2dfaeb94e8a92316002d5b76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zukomazi - Pro Drift Controller v1/Models/Test Track One/Track/Materials/rdlt.mat using Guid(710ac6fd2dfaeb94e8a92316002d5b76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0e8d71a1461d5c6acbc9736b48cc5e0') in 0.027237 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/EffectExamples/Weapon Effects/Materials/BulletDecalMetal.mat
+  artifactKey: Guid(094e76e620df5714eb3946120657e1f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EffectExamples/Weapon Effects/Materials/BulletDecalMetal.mat using Guid(094e76e620df5714eb3946120657e1f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7084608cfe60dcada111d5f63f21eb9d') in 0.040780 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Zukomazi - Pro Drift Controller v1/Models/Test Track One/Track/Materials/track_main.mat
+  artifactKey: Guid(f1369ff1724c32a4c900ed1980ce5db1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zukomazi - Pro Drift Controller v1/Models/Test Track One/Track/Materials/track_main.mat using Guid(f1369ff1724c32a4c900ed1980ce5db1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edcb479001806f16defc0fdec934c594') in 0.026650 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat
+  artifactKey: Guid(79459efec17a4d00a321bdcc27bbc385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat using Guid(79459efec17a4d00a321bdcc27bbc385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2d0228a286461d670b26aabf451d22f') in 0.091331 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Zukomazi - Pro Drift Controller v1/Models/Test Track One/Track/Materials/metalblue.mat
+  artifactKey: Guid(477f45c4ce2770a41869dc88de26a4b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zukomazi - Pro Drift Controller v1/Models/Test Track One/Track/Materials/metalblue.mat using Guid(477f45c4ce2770a41869dc88de26a4b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e80186235c2ad50a2cd412345b0962f') in 0.029418 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/RealisticMobileCars - Pro 3D Models/Vehicles/Main/Materials/Numbers_License_Plate/Usa_Number_C.mat
+  artifactKey: Guid(0097121037b1e334c94d3ea078109cf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RealisticMobileCars - Pro 3D Models/Vehicles/Main/Materials/Numbers_License_Plate/Usa_Number_C.mat using Guid(0097121037b1e334c94d3ea078109cf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b669fe64d38ad7f27634b36ee43c2ef1') in 0.023092 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/RealisticMobileCars - Pro 3D Models/Vehicles/Main/Materials/Numbers_License_Plate/Usa_Number_I.mat
+  artifactKey: Guid(e14170a984dc6c949b89c2be1fc8f117) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RealisticMobileCars - Pro 3D Models/Vehicles/Main/Materials/Numbers_License_Plate/Usa_Number_I.mat using Guid(e14170a984dc6c949b89c2be1fc8f117) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86b6e7c7b228eae953d7293c48cff336') in 0.029262 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/RealisticMobileCars - Pro 3D Models/Vehicles/Main/Materials/Numbers_License_Plate/Eu_Number_A.mat
+  artifactKey: Guid(a564ba0a985e3ca4aa169e88e44e5767) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RealisticMobileCars - Pro 3D Models/Vehicles/Main/Materials/Numbers_License_Plate/Eu_Number_A.mat using Guid(a564ba0a985e3ca4aa169e88e44e5767) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7e12547ad34ba65d464ffefca568500') in 0.029773 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/RealisticMobileCars - Pro 3D Models/Vehicles/Main/Materials/Numbers_License_Plate/Eu_Number_X.mat
+  artifactKey: Guid(c5fade41cc0a9934f8af6518883087ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RealisticMobileCars - Pro 3D Models/Vehicles/Main/Materials/Numbers_License_Plate/Eu_Number_X.mat using Guid(c5fade41cc0a9934f8af6518883087ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44a91ba5598ea83e0fea6ec508a356cb') in 0.035248 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Zukomazi - Pro Drift Controller v1/Models/Test Track One/Track/Materials/isirail.mat
+  artifactKey: Guid(002f9b784c0a6b64aa7f51f91ed629ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zukomazi - Pro Drift Controller v1/Models/Test Track One/Track/Materials/isirail.mat using Guid(002f9b784c0a6b64aa7f51f91ed629ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f2aff5104ca0101493f399942d0b3e3') in 0.028582 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Materials/material5t040100010000000110110100010110100100110st.mat
+  artifactKey: Guid(a9e3f8c902fb2e54f847ec61d958e6f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Materials/material5t040100010000000110110100010110100100110st.mat using Guid(a9e3f8c902fb2e54f847ec61d958e6f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a0b3e70516382da412eb46b01f5e67e') in 0.037030 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Zukomazi - Pro Drift Controller v1/Models/Test Track One/Track/Materials/garagenumbers.mat
+  artifactKey: Guid(c4d20467007df4348aed13b74983c730) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zukomazi - Pro Drift Controller v1/Models/Test Track One/Track/Materials/garagenumbers.mat using Guid(c4d20467007df4348aed13b74983c730) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1b727433be6721840f3af0a03f223cf') in 0.027212 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Materials/material13t040100010000000110110100110010000100010st.mat
+  artifactKey: Guid(99b583c4a83b12049b55bfa4cb0bfa00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Materials/material13t040100010000000110110100110010000100010st.mat using Guid(99b583c4a83b12049b55bfa4cb0bfa00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f337a490b8cf982ad647bc342f086366') in 0.035295 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Zukomazi - Pro Drift Controller v1/Models/Test Track One/Track/Materials/metalred.mat
+  artifactKey: Guid(b80faccac0dbf114181eacb70d46726d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zukomazi - Pro Drift Controller v1/Models/Test Track One/Track/Materials/metalred.mat using Guid(b80faccac0dbf114181eacb70d46726d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2511a62e14a4214b3933acbd6b284c1') in 0.023576 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/SimpleLit.mat
+  artifactKey: Guid(6a1143ee683302f4aa628c052723efc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/SimpleLit.mat using Guid(6a1143ee683302f4aa628c052723efc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3eacb5a01c1605917b3718aa20587716') in 1.746072 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000114 seconds.
+  path: Assets/RealisticMobileCars - Pro 3D Models/Vehicles/Main/Materials/Numbers_License_Plate/Usa_Number_U.mat
+  artifactKey: Guid(c44864cedefe9b94abcc4b5090939bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RealisticMobileCars - Pro 3D Models/Vehicles/Main/Materials/Numbers_License_Plate/Usa_Number_U.mat using Guid(c44864cedefe9b94abcc4b5090939bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70e8ef56f123ef9247e125f6a48693ee') in 0.032129 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Zukomazi - Pro Drift Controller v1/Models/Test Track One/Track/Materials/metal_green.mat
+  artifactKey: Guid(fa29352538d4eca4684f500e77119535) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zukomazi - Pro Drift Controller v1/Models/Test Track One/Track/Materials/metal_green.mat using Guid(fa29352538d4eca4684f500e77119535) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c769b9fb24ae3e65a2cd76b655fcc0b0') in 0.027592 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/RealisticMobileCars - Pro 3D Models/Vehicles/Main/Materials/Numbers_License_Plate/Eu_Number_4.mat
+  artifactKey: Guid(132a573cb6ee950439bccb6fecf0dc6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RealisticMobileCars - Pro 3D Models/Vehicles/Main/Materials/Numbers_License_Plate/Eu_Number_4.mat using Guid(132a573cb6ee950439bccb6fecf0dc6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0036762f2380fc42e23cb4a42fa71888') in 0.032650 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Zukomazi - Pro Drift Controller v1/Models/Test Track One/Track/Materials/rdglow.mat
+  artifactKey: Guid(e6246e567ab81674e81a3820e34a754d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zukomazi - Pro Drift Controller v1/Models/Test Track One/Track/Materials/rdglow.mat using Guid(e6246e567ab81674e81a3820e34a754d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e6fd5cbaf76538d187bac37c947ea35') in 0.025238 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Zukomazi - Pro Drift Controller v1/Models/Test Track One/Track/Materials/buildbwindow02.mat
+  artifactKey: Guid(0af54390754760f43b9a91d0f396dc01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zukomazi - Pro Drift Controller v1/Models/Test Track One/Track/Materials/buildbwindow02.mat using Guid(0af54390754760f43b9a91d0f396dc01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28ae842d867d4cc511c0d952bbf84161') in 0.031542 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.234840 seconds.
+  path: Assets/Zukomazi - Pro Drift Controller v1/Models/Test Track One/Track/Materials/sponsor_i1_bbrds.mat
+  artifactKey: Guid(06171c7f484c8384f938ab6fe2829e65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zukomazi - Pro Drift Controller v1/Models/Test Track One/Track/Materials/sponsor_i1_bbrds.mat using Guid(06171c7f484c8384f938ab6fe2829e65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b76939a50a25b5fbd89f83dba4a7bfd7') in 0.026714 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/EffectExamples/Fire & Explosion Effects/Materials/SmokeDark.mat
+  artifactKey: Guid(698a8134f4ebbbd4e848648685f68067) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EffectExamples/Fire & Explosion Effects/Materials/SmokeDark.mat using Guid(698a8134f4ebbbd4e848648685f68067) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d3501f81b711080ba4b891a179c1454') in 0.083111 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/EffectExamples/Weapon Effects/Materials/RockDebris.mat
+  artifactKey: Guid(586b03ea88dd46c42b5eb8af4d0c137a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EffectExamples/Weapon Effects/Materials/RockDebris.mat using Guid(586b03ea88dd46c42b5eb8af4d0c137a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c98e01797aa3e6418c59ad05eb10b52') in 0.073650 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/Zukomazi - Pro Drift Controller v1/Models/Test Track One/Track/Materials/rumbles.mat
+  artifactKey: Guid(79e22d6823919d84a8b97b12d6476048) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zukomazi - Pro Drift Controller v1/Models/Test Track One/Track/Materials/rumbles.mat using Guid(79e22d6823919d84a8b97b12d6476048) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71da095efb2c0f8f03872664452cb082') in 0.047435 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/Zukomazi - Pro Drift Controller v1/Models/Test Track One/Track/Materials/peoplec.mat
+  artifactKey: Guid(6252aa9b8821b42439e5775c316897eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zukomazi - Pro Drift Controller v1/Models/Test Track One/Track/Materials/peoplec.mat using Guid(6252aa9b8821b42439e5775c316897eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad348f232b8e3cbdf8751051902a6240') in 0.028289 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/ParticlesUnlit.mat
+  artifactKey: Guid(e823cd5b5d27c0f4b8256e7c12ee3e6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/ParticlesUnlit.mat using Guid(e823cd5b5d27c0f4b8256e7c12ee3e6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dd23d0ed6f9edab77f7a8897940fd51') in 0.197665 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Materials/material25t040100010000000110110100110010000010010st.mat
+  artifactKey: Guid(bd5c59344c7cca9479838d04ae933d2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Materials/material25t040100010000000110110100110010000010010st.mat using Guid(bd5c59344c7cca9479838d04ae933d2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c2ba35d8c413215cd356d48f1b87b53') in 0.050359 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/EffectExamples/Misc Effects/Materials/ElectricalSparks.mat
+  artifactKey: Guid(a6492a173e6c03f48899880b96cca600) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EffectExamples/Misc Effects/Materials/ElectricalSparks.mat using Guid(a6492a173e6c03f48899880b96cca600) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dd9b90b7da25238d577be26986cb5b5') in 0.053994 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/Decal.mat
+  artifactKey: Guid(31d0dcc6f2dd4e4408d18036a2c93862) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/Decal.mat using Guid(31d0dcc6f2dd4e4408d18036a2c93862) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfaaa1d83cb91717d6a425f66c1857ed') in 0.023960 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/EffectExamples/Fire & Explosion Effects/Materials/EnergyShockwave.mat
+  artifactKey: Guid(65586f2fde3974c4e9469dfe6cf89338) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EffectExamples/Fire & Explosion Effects/Materials/EnergyShockwave.mat using Guid(65586f2fde3974c4e9469dfe6cf89338) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8919dabffc50557642c29b6f51653211') in 0.031397 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Zukomazi - Pro Drift Controller v1/Models/Test Track One/Track/Materials/canvastop.mat
+  artifactKey: Guid(baee3c4d8340c3247954515fa1bd5969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zukomazi - Pro Drift Controller v1/Models/Test Track One/Track/Materials/canvastop.mat using Guid(baee3c4d8340c3247954515fa1bd5969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11d9a80e271d4670c624e1a52b8fed52') in 0.029935 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/EffectExamples/Fire & Explosion Effects/Materials/Lightning.mat
+  artifactKey: Guid(0b1b6a2d22d96564f9037ae143ea84cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EffectExamples/Fire & Explosion Effects/Materials/Lightning.mat using Guid(0b1b6a2d22d96564f9037ae143ea84cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cf7c8d40ae4f79d02003791481d5439') in 0.053755 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/CarAI/Scenes/demo/Materials/brown.mat
+  artifactKey: Guid(97de4b774af5fb848a5bb2da3927caea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CarAI/Scenes/demo/Materials/brown.mat using Guid(97de4b774af5fb848a5bb2da3927caea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4aaa0bda3e0d63c48d3ad66224194dd3') in 0.031149 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Zukomazi - Pro Drift Controller v1/Models/Test Track One/Track/Materials/pitfill.mat
+  artifactKey: Guid(985946f69e3c97749aec044eed14261c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zukomazi - Pro Drift Controller v1/Models/Test Track One/Track/Materials/pitfill.mat using Guid(985946f69e3c97749aec044eed14261c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94cf564e83e13e54f37231cf7305ad61') in 0.028603 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Zukomazi - Pro Drift Controller v1/Models/Test Track One/Track/Materials/ovalstation.mat
+  artifactKey: Guid(a944c82aee1f09f4584da80dfb36e867) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zukomazi - Pro Drift Controller v1/Models/Test Track One/Track/Materials/ovalstation.mat using Guid(a944c82aee1f09f4584da80dfb36e867) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3371d779cceaeeb61d132be679b40dac') in 0.026930 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/EffectExamples/Misc Effects/Materials/Respawn.mat
+  artifactKey: Guid(a683b955b3d06e6429565831caff80f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EffectExamples/Misc Effects/Materials/Respawn.mat using Guid(a683b955b3d06e6429565831caff80f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '724f993708e697496e132fcbe1cca007') in 0.027366 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000102 seconds.
+  path: Assets/Zukomazi - Pro Drift Controller v1/Models/Test Track One/Track/Materials/dirtfull.mat
+  artifactKey: Guid(447ec501538cd31458811792653b4ed3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zukomazi - Pro Drift Controller v1/Models/Test Track One/Track/Materials/dirtfull.mat using Guid(447ec501538cd31458811792653b4ed3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9225eff1cd53467f2a48f5646065261e') in 0.024695 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Shared/Environment/Materials/Skybox.mat
+  artifactKey: Guid(d1385980456cd2044b282d73625457db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shared/Environment/Materials/Skybox.mat using Guid(d1385980456cd2044b282d73625457db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee36e622236caa146809b8702e7b9020') in 0.107395 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/04_metrial/damin/SkidMark.mat
+  artifactKey: Guid(66be496e3f4199441a82b5606954e135) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04_metrial/damin/SkidMark.mat using Guid(66be496e3f4199441a82b5606954e135) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd967012c9a7e841f1fd675c84f2e8111') in 1.661418 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Materials/material0t040100010000000110110100110010010000000st.mat
+  artifactKey: Guid(4c36e86f352bb014897c9a1425cc15c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Materials/material0t040100010000000110110100110010010000000st.mat using Guid(4c36e86f352bb014897c9a1425cc15c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3420acfaf73adcc35c7feaf8808cda31') in 0.047333 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Materials/material17t040100010000000110110100010110100100110st.mat
+  artifactKey: Guid(1922fbea24585a9408d4410728debcd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Materials/material17t040100010000000110110100010110100100110st.mat using Guid(1922fbea24585a9408d4410728debcd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '708bde2b61d7b593b3feeaa6db85171d') in 0.058871 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Zukomazi - Pro Drift Controller v1/Models/Test Track One/Track/Materials/pitspots.mat
+  artifactKey: Guid(1747290ddc444364eaa76c7f49c0bdd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zukomazi - Pro Drift Controller v1/Models/Test Track One/Track/Materials/pitspots.mat using Guid(1747290ddc444364eaa76c7f49c0bdd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b16ba1c731010100e0c50f3234962566') in 0.026053 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Materials/material0t040100010000000110110100110010000110010st.mat
+  artifactKey: Guid(096002a4cd3e20f4d9460dcd3beb66f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Materials/material0t040100010000000110110100110010000110010st.mat using Guid(096002a4cd3e20f4d9460dcd3beb66f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb2c61866378c70e3f1835185600f89e') in 0.031979 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Materials/material0t040100010000000110110100110010000110000st.mat
+  artifactKey: Guid(68b9e736b618d2c4899d476bc0f72605) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Materials/material0t040100010000000110110100110010000110000st.mat using Guid(68b9e736b618d2c4899d476bc0f72605) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6282b4362a633108585a2e54711fdb20') in 0.025219 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Materials/material16t040100010000000110110100010110100100110st.mat
+  artifactKey: Guid(8a25bed5e65a5b544989cd4de3af3bfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Materials/material16t040100010000000110110100010110100100110st.mat using Guid(8a25bed5e65a5b544989cd4de3af3bfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cf7b7e7d1010f5c059662a396734902') in 0.037924 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Zukomazi - Pro Drift Controller v1/Models/Test Track One/Track/Materials/roofa.mat
+  artifactKey: Guid(bc255c368105a494a82565d5b979a93c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zukomazi - Pro Drift Controller v1/Models/Test Track One/Track/Materials/roofa.mat using Guid(bc255c368105a494a82565d5b979a93c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af2f8221414678225e5a3a57ead13df3') in 0.040411 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/Zukomazi - Pro Drift Controller v1/Models/Test Track One/Track/Materials/buildawall01.mat
+  artifactKey: Guid(e94336095fbf95d4baed48b35d582c1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zukomazi - Pro Drift Controller v1/Models/Test Track One/Track/Materials/buildawall01.mat using Guid(e94336095fbf95d4baed48b35d582c1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc9dbfc47865421fb86629cd8f8e132d') in 0.033294 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/EffectExamples/Weapon Effects/Materials/DustPuffParticle.mat
+  artifactKey: Guid(1402721190994cd46b64bf7cba78f5d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EffectExamples/Weapon Effects/Materials/DustPuffParticle.mat using Guid(1402721190994cd46b64bf7cba78f5d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '876fd85062e8cbccca20cc293c4d8daf') in 0.036255 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/EffectExamples/Fire & Explosion Effects/Materials/DebrisParticle.mat
+  artifactKey: Guid(72815344e9e9c7446895e130936932d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EffectExamples/Fire & Explosion Effects/Materials/DebrisParticle.mat using Guid(72815344e9e9c7446895e130936932d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96aed93f7d0d33cd63f53f8bd655b09f') in 0.034604 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Zukomazi - Pro Drift Controller v1/Models/Test Track One/Track/Materials/bleacherblue.mat
+  artifactKey: Guid(ce44589bcc7a3ec46bbc399c87b128dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zukomazi - Pro Drift Controller v1/Models/Test Track One/Track/Materials/bleacherblue.mat using Guid(ce44589bcc7a3ec46bbc399c87b128dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a397094a223bd78d288ce478044ae3e') in 0.029463 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/EffectExamples/Misc Effects/Materials/SmokePuff.mat
+  artifactKey: Guid(5545993361f7ef8479dce19256c84f06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EffectExamples/Misc Effects/Materials/SmokePuff.mat using Guid(5545993361f7ef8479dce19256c84f06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8bba8f7fd6b4e3a0d30407367868644') in 0.045390 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Zukomazi - Pro Drift Controller v1/Models/volkswagen-corrado-vr6-low-poly-model/source/corr_lights.mat
+  artifactKey: Guid(0dfd07ce72056c649913b72f138cf889) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zukomazi - Pro Drift Controller v1/Models/volkswagen-corrado-vr6-low-poly-model/source/corr_lights.mat using Guid(0dfd07ce72056c649913b72f138cf889) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f391dc2d7b8ad46211f25fc47ea93080') in 0.030637 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Materials/material0t040100010000000110110100110010000010110st.mat
+  artifactKey: Guid(d01235b18183fe04f94c6f1d42d2ae67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Materials/material0t040100010000000110110100110010000010110st.mat using Guid(d01235b18183fe04f94c6f1d42d2ae67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ae2c6836e20584c6f17386538eb87aa') in 0.043617 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/EffectExamples/Smoke & Steam Effects/Materials/SmokeySteam03.mat
+  artifactKey: Guid(fd80cdb028e1d864392334da34ca021d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EffectExamples/Smoke & Steam Effects/Materials/SmokeySteam03.mat using Guid(fd80cdb028e1d864392334da34ca021d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64a32fe9bd8971cda520d7632bacf742') in 0.038759 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Zukomazi - Pro Drift Controller v1/Models/Test Track One/Track/Materials/grass_full.mat
+  artifactKey: Guid(4b48e70e3a98b8444ab1b7d632b82759) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zukomazi - Pro Drift Controller v1/Models/Test Track One/Track/Materials/grass_full.mat using Guid(4b48e70e3a98b8444ab1b7d632b82759) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7cef777da470e40058df6f247f430fe') in 0.030750 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/RealisticMobileCars - Pro 3D Models/Vehicles/Main/Materials/Numbers_License_Plate/Eu_Number_0.mat
+  artifactKey: Guid(f894c3ead2050264787ca254aee67801) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RealisticMobileCars - Pro 3D Models/Vehicles/Main/Materials/Numbers_License_Plate/Eu_Number_0.mat using Guid(f894c3ead2050264787ca254aee67801) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3811d5085d7ec9f470653e0052735001') in 0.033296 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/RealisticMobileCars - Pro 3D Models/Vehicles/RMCarDemo/Meshes/Materials/RMCarDemo_HUB.mat
+  artifactKey: Guid(9b69deb6f6144774fa56d90ac113085b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RealisticMobileCars - Pro 3D Models/Vehicles/RMCarDemo/Meshes/Materials/RMCarDemo_HUB.mat using Guid(9b69deb6f6144774fa56d90ac113085b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d38c81ec375596f40048062e7bbe659') in 0.065135 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Shared/Environment/Materials/LinesWhite.mat
+  artifactKey: Guid(09d2711cb134c78409078c4645fae1cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shared/Environment/Materials/LinesWhite.mat using Guid(09d2711cb134c78409078c4645fae1cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6c1305464f34bb8dd66381bf670ece3') in 0.051161 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Materials/material0t040100010000000110110100110010000010010st.mat
+  artifactKey: Guid(d19e4615fb0dfce4fb4ee9fc400a3acb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Materials/material0t040100010000000110110100110010000010010st.mat using Guid(d19e4615fb0dfce4fb4ee9fc400a3acb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6564bd26f8d5bc9439f594b19cce7ce6') in 0.043777 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Materials/material25t040100010000000110110100110010000110000st.mat
+  artifactKey: Guid(e3cd78df9247cf7449701565090a66ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Materials/material25t040100010000000110110100110010000110000st.mat using Guid(e3cd78df9247cf7449701565090a66ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f64e2f0e8e1629ce22b92f99ffcd4f0') in 0.036316 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
