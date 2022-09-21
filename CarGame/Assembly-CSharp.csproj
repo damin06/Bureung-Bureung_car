@@ -38,19 +38,60 @@
   <ItemGroup>
      <Compile Include="Assets\02_scriptes\damin\Car_Controller.cs" />
      <Compile Include="Assets\02_scriptes\damin\cameraFollow.cs" />
+<<<<<<< Updated upstream
      <Compile Include="Assets\CarAI\Scripts\SensorManager.cs" />
+=======
+     <Compile Include="Assets\Shared\Scripts\SimpleCameraController.cs" />
+>>>>>>> Stashed changes
      <Compile Include="Assets\02_scriptes\damin\car_engine_sound.cs" />
      <Compile Include="Assets\vehicle\inputManager.cs" />
      <Compile Include="Assets\vehicle\engineAudio.cs" />
      <Compile Include="Assets\vehicle\wheelsManager.cs" />
+<<<<<<< Updated upstream
      <Compile Include="Assets\CarAI\Scripts\controllingCarAI.cs" />
+=======
+     <Compile Include="Assets\Zukomazi - Pro Drift Controller v1\Scripts\WheelAlignment.cs" />
+     <Compile Include="Assets\02_scriptes\damin\car_light.cs" />
+>>>>>>> Stashed changes
      <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
      <Compile Include="Assets\vehicle\controller.cs" />
      <Compile Include="Assets\vehicle\cameraController.cs" />
+<<<<<<< Updated upstream
      <Compile Include="Assets\CarAI\Scripts\CarAI.cs" />
      <Compile Include="Assets\02_scriptes\damin\car_light.cs" />
      <None Include="Assets\Geopipe\Pack01\NYBlock01\ModelLicense.txt" />
      <None Include="Assets\CarAI\Readme.txt.txt" />
+=======
+     <Compile Include="Assets\Zukomazi - Pro Drift Controller v1\Scripts\WheelController.cs" />
+     <Compile Include="Assets\EffectExamples\Misc Effects\Scripts\SpawnEffect.cs" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Overlay.shader" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap.shader" />
+     <None Include="Assets\EffectExamples\Misc Effects\Prefabs\Readme_Dissolve_Respawn_.txt" />
+     <None Include="Assets\Zukomazi - Pro Drift Controller v1\Tools\UnitySkidmarks\Skidmarks.shader" />
+     <None Include="Assets\Geopipe\Pack01\NYBlock01\ModelLicense.txt" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
+     <None Include="Assets\05_assets\damin\Car Engine Sounds - i6 German Free\Assets for Realistic Engine Sounds\ReadMe.txt" />
+     <None Include="Assets\Zukomazi - Pro Drift Controller v1\Audio\PC Computer - Colin McRae Rally 20 - Lancer\ReadMe.txt" />
+     <None Include="Assets\Zukomazi - Pro Drift Controller v1\Models\Test Track One\CREDITS.txt" />
+     <None Include="Assets\EffectExamples\Magic Effects\Shaders\Ice.shader" />
+     <None Include="Assets\EffectExamples\Misc Effects\Shaders\Respawn.shader" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface.shader" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF.shader" />
+     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />
+     <None Include="Assets\05_assets\damin\Car Engine Sounds - i6 German Free\Demo_Audio\ReadMe.txt" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Surface.cginc" />
+     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Masking.shader" />
+     <None Include="Assets\EffectExamples\Misc Effects\Shaders\FireFly.shader" />
+     <None Include="Assets\Zukomazi - Pro Drift Controller v1\Audio\PC Computer - Colin McRae Rally 20 - Subaru\ReadMe.txt" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF Overlay.shader" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Mobile.shader" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile.shader" />
+     <None Include="Assets\EffectExamples\Misc Effects\Shaders\Dissolve.shader" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Sprite.shader" />
+>>>>>>> Stashed changes
     <Reference Include="UnityEngine">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.8f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>

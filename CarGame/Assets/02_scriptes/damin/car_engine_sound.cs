@@ -15,8 +15,11 @@ public class car_engine_sound : MonoBehaviour
     public float maxPitch;
     private float pitchFromCar;
 
+    private Car_Controller car_Controller;
+
     void Start()
     {
+        car_Controller = GetComponent<Car_Controller>();
         carAudio = GetComponent<AudioSource>();
         carRb = GetComponent<Rigidbody>();
     }
